@@ -4,14 +4,14 @@ import { themeContext } from '../Context/ThemeContext';
 const ApiPricing = () => {
     const {theme} = useContext(themeContext);
   return (
-    <div className=" text-white p-8 sx:max-sm:text-sm">
-      <div className={`${theme === 'light' ? 'bg-white text-black':"text-white  bg-[#1e293b]"} max-w-4xl mx-auto px-7 py-7 rounded-lg sx:max-sm:text-sm`}>
+    <div className=" text-white sx:max-sm:p-0  sx:max-sm:text-sm">
+      <div className={`${theme === 'light' ? 'bg-white text-black':"text-white  bg-[#1e293b]"} max-w-4xl mx-auto px-7 py-7 rounded-lg sx:max-sm:text-sm   `}>
         <h2 className="text-3xl font-bold mb-8 sx:max-sm:text-sm">API Pricing</h2>
         <p className="mb-4 sx:max-sm:text-sm">
           Our API pricing is based on the model used and the number of tokens processed. Here's a breakdown of the costs:
         </p>
 
-        <div className="overflow-x-auto sx:max-sm:text-sm">
+        <div className="overflow-x-auto sx:max-sm:text-sm ">
           <table className={`${theme === 'light' ? 'bg-white text-black':"text-white"} min-w-full table-auto  rounded-lg sx:max-sm:text-sm`}>
             <thead>
               <tr className="bg-blue-600 text-left sx:max-sm:text-sm">
