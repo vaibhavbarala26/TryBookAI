@@ -4,7 +4,7 @@ import { themeContext } from '../Context/ThemeContext';
 const GenerateBookEndpoint = () => {
   const {theme} = useContext(themeContext)
   return (
-    <div className={`max-w-4xl mx-auto px-7 py-7 ${theme === 'light' ? 'bg-white text-black':"text-white bg-[#1e293b]"} mt-10 rounded-lg  ${theme === 'light' ? 'bg-white text-black':"text-white"}`}>
+    <div className={`max-w-4xl mx-auto px-7 py-7 ${theme === 'light' ? 'bg-white text-black':"text-white bg-[#1e293b]"} mt-10 rounded-lg  ${theme === 'light' ? 'bg-white text-black':"text-white"} `}>
       <h2 className="text-2xl font-semibold mb-4">Endpoints</h2>
       <div className="flex items-center mb-6">
         <span className="bg-blue-500  px-3 py-1 rounded-md mr-4">POST</span>
