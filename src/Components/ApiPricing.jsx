@@ -4,32 +4,32 @@ import { themeContext } from '../Context/ThemeContext';
 const ApiPricing = () => {
     const {theme} = useContext(themeContext);
   return (
-    <div className=" text-white p-8">
-      <div className={`${theme === 'light' ? 'bg-white text-black':"text-white  bg-[#1e293b]"} max-w-4xl mx-auto px-7 py-7 rounded-lg`}>
-        <h2 className="text-3xl font-bold mb-8">API Pricing</h2>
-        <p className="mb-4">
+    <div className=" text-white p-8 sx:max-sm:text-sm">
+      <div className={`${theme === 'light' ? 'bg-white text-black':"text-white  bg-[#1e293b]"} max-w-4xl mx-auto px-7 py-7 rounded-lg sx:max-sm:text-sm`}>
+        <h2 className="text-3xl font-bold mb-8 sx:max-sm:text-sm">API Pricing</h2>
+        <p className="mb-4 sx:max-sm:text-sm">
           Our API pricing is based on the model used and the number of tokens processed. Here's a breakdown of the costs:
         </p>
 
-        <div className="overflow-x-auto">
-          <table className={`${theme === 'light' ? 'bg-white text-black':"text-white"} min-w-full table-auto  rounded-lg`}>
+        <div className="overflow-x-auto sx:max-sm:text-sm">
+          <table className={`${theme === 'light' ? 'bg-white text-black':"text-white"} min-w-full table-auto  rounded-lg sx:max-sm:text-sm`}>
             <thead>
-              <tr className="bg-blue-600 text-left">
-                <th className="p-4 text-lg font-semibold">API</th>
-                <th className="p-4 text-lg font-semibold">Model</th>
-                <th className="p-4 text-lg font-semibold">Price per 1K Tokens</th>
+              <tr className="bg-blue-600 text-left sx:max-sm:text-sm">
+                <th className="p-4 text-lg font-semibold sx:max-sm:text-sm">API</th>
+                <th className="p-4 text-lg font-semibold sx:max-sm:text-sm">Model</th>
+                <th className="p-4 text-lg font-semibold sx:max-sm:text-sm">Price per 1K Tokens</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-b border-slate-700">
-                <td className="p-4">OpenAI</td>
-                <td className="p-4">GPT-3.5</td>
-                <td className="p-4">$0.002</td>
+              <tr className="border-b border-slate-700 sx:max-sm:text-sm">
+                <td className="p-4 sx:max-sm:text-sm">OpenAI</td>
+                <td className="p-4 sx:max-sm:text-sm">GPT-3.5</td>
+                <td className="p-4 sx:max-sm:text-sm">$0.002</td>
               </tr>
-              <tr className="border-b border-slate-700">
-                <td className="p-4">OpenAI</td>
-                <td className="p-4">GPT-4</td>
-                <td className="p-4">$0.03</td>
+              <tr className="border-b border-slate-700 sx:max-sm:text-sm">
+                <td className="p-4 sx:max-sm:text-sm">OpenAI</td>
+                <td className="p-4 sx:max-sm:text-sm">GPT-4</td>
+                <td className="p-4 sx:max-sm:text-sm">$0.03</td>
               </tr>
               <tr className="border-b border-slate-700">
                 <td className="p-4">Together AI</td>
