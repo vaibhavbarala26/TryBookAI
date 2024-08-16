@@ -4,8 +4,8 @@ import { themeContext } from '../Context/ThemeContext';
 const Tutorial = () => {
     const {theme} = useContext(themeContext)
   return (
-    <div className=" text-white p-8 flex flex-col items-center justify-center w-full">
-      <div className={` mx-auto ${theme === 'light' ? 'bg-white text-black':"text-white bg-[#1e293b]"} w-[62%] px-7 py-7 rounded-lg`}>
+    <div className=" text-white p-8 flex flex-col items-center justify-center w-full sx:max-sm:px-0 ">
+      <div className={` mx-auto ${theme === 'light' ? 'bg-white text-black':"text-white bg-[#1e293b]"} w-[62%] px-7 py-7 rounded-lg sx:max-sm:w-[100%]`}>
         <h2 className="text-3xl font-bold mb-8">Tutorial</h2>
         <div className="space-y-6">
           <div>
