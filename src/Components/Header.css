@@ -1,0 +1,54 @@
+.icon{
+    background:linear-gradient(45deg, rgb(114, 107, 255), rgb(87, 182, 254));
+}
+.headeritem:hover{
+    cursor: pointer;
+    color: rgb(138, 43, 226);
+}
+.text::after{
+    position: initial;
+    content: "";
+    height: 2px;
+    width: 50%;
+
+
+width: 100%;
+}
+
+.a::after {
+    display: block;
+      content: '';
+     width: 100%;
+     height: 2px;
+     margin-top: px;
+     background: linear-gradient(45deg, rgb(114, 107, 255), rgb(87, 182, 254));
+     position: absolute;
+     
+     bottom: 0;
+     left: 0;
+   }
+   
+   .a {
+   position: relative;  
+    
+   background: -webkit-linear-gradient(45deg, rgb(138, 43, 226), rgb(75, 0, 130));
+
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   }
+   
+.button{
+    background: linear-gradient(45deg, rgb(114, 107, 255), rgb(87, 182, 254));
+    color: white;
+    border-radius:50px;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+}
+.container{
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
