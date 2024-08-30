@@ -14,6 +14,8 @@ import { themeContext } from '../Context/ThemeContext';
 
 const Hero = () => {
     const {theme} = useContext(themeContext)
+    console.log(theme);
+    
     return (
         <div className={`bg-gray-900  ${theme === 'light' ? 'text-black bg-white' : 'text-white'}  flex flex-col items-center justify-center `}>
             <div className='px-4 md:px-10 text-center'>
